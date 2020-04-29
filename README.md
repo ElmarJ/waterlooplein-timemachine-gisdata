@@ -1,5 +1,5 @@
 # Amsterdam.1892.GeoJSON
-Project to reconstruct Amsterdam 1892 in GeoJson (based on "Nieuwe Kaart van Amsterdam" from Stadsarchief Beeldbank).
+Project to reconstruct Amsterdam 1892 in GeoJson (based on "Nieuwe Kaart van Amsterdam" from Stadsarchief Beeldbank). Data is used by the [Waterlooplein 3D project](https://github.com/ElmarJ/Waterlooplein3D).
 
 ## Aim
 Reconstruct a vector map of Amsterdam in 1892. This project serves as the basis for a 3D Unity project, which makes it possible to walk through a reconstruction of Amsterdam in 1892. The current focus is on the Waterloopleinbuurt, mainly because this neighborhood is the most interesting (as it changed entirely), and also because I live there. :)
