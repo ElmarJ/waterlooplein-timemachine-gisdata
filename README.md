@@ -1,14 +1,14 @@
 # Amsterdam.1892.GeoJSON
-Project to reconstruct Amsterdam 1892 in GeoJson (based on "Nieuwe Kaart van Amsterdam" from Stadsarchief Beeldbank).
+Project to reconstruct Amsterdam around 1880 in GeoJson. Data is used by the [Waterlooplein 3D project](https://github.com/ElmarJ/Waterlooplein3D).
 
 ## Aim
-Reconstruct a vector map of Amsterdam in 1892. This project serves as the basis for a 3D Unity project, which makes it possible to walk through a reconstruction of Amsterdam in 1892. The current focus is on the Waterloopleinbuurt, mainly because this neighborhood is the most interesting (as it changed entirely), and also because I live there. :)
+Reconstruct vector maps of Amsterdam around 1880. This project serves as the basis for a 3D Unity project, which makes it possible to walk through a reconstruction of Amsterdam around 1880. The current focus is on the Waterloopleinbuurt, mainly because this neighborhood is the most interesting (as it changed entirely), and also because I live there. :)
 
 ## Notes about the process
 Because I began this project with a very specific purpose in mind (the 3D project mentioned above), it is important to see what I do and what I do not intent. A few points:
 
-- The map is primarily based on the Lohman Buurtatlas of 1892.
-- Relative accuracy is more important than absolute positions. As the intention is to create a 3D-world that convincingly models Amsterdam in 1892, I rather have inaccuracies in absolute position than inaccuracies in the relation between buildings and other constructions. For example: it is important that buildings connect perfectly - else we end up with weird allies and other artifacts. Same applies to the relation between canals and buildings: if a building is built next to the water, the edges of the building polygon and the canal-island polygon should overlap perfectly.
+- The map is primarily based on the Loman Buurtatlas.
+- Relative accuracy is more important than absolute positions. As the intention is to create a 3D-world that convincingly models Amsterdam, I rather have inaccuracies in absolute position than inaccuracies in the relation between buildings and other constructions. For example: it is important that buildings connect perfectly - else we end up with weird allies and other artifacts. Same applies to the relation between canals and buildings: if a building is built next to the water, the edges of the building polygon and the canal-island polygon should overlap perfectly.
 - If the Lohman map positions are inaccurate, we should try to follow real world map positions as much as possible - so where possible, I'll try to do better than the Lohman map if I know better. This means for example that historical buildings that still exist, can probably be mapped more accurately straight from (more) modern maps. However, this means that we have to take care not to break local accuracy (so previous point).
 - Because my core interest lies in reconstructing the Waterlooplein neighborhood, 
 
