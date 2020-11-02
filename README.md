@@ -1,5 +1,5 @@
 # Amsterdam.1892.GeoJSON
-Project to reconstruct Amsterdam around 1880 in GeoJson. Data is used by the [Waterlooplein 3D project](https://github.com/ElmarJ/Waterlooplein3D).
+Project to reconstruct Amsterdam around 1880 in GeoJson. Data is used by the [Waterlooplein 3D project](https://github.com/ElmarJ/Waterlooplein3D). See [https://waterlooplein3d.nl] for more information about the whole project.
 
 ## Aim
 Reconstruct vector maps of Amsterdam around 1880. This project serves as the basis for a 3D Unity project, which makes it possible to walk through a reconstruction of Amsterdam around 1880. The current focus is on the Waterloopleinbuurt, mainly because this neighborhood is the most interesting (as it changed entirely), and also because I live there. :)
