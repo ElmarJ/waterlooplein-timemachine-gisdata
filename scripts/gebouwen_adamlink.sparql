@@ -1,0 +1,25 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
+PREFIX hg:     <http://rdf.histograph.io/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+SELECT * WHERE {
+  SERVICE <https://api.druid.datalegend.net/datasets/AdamNet/Geography/services/endpoint/sparql>
+  {
+    ?item a hg:Building .
+    ?item geo:hasGeometry ?geom_obj .
+    ?geom_obj geo:asWKT ?geo .
+    OPTIONAL { ?item rdfs:label ?label . }
+    OPTIONAL { ?item sem:hasEarliestEndTimeStamp ?end_earliest . }
+    OPTIONAL { ?item sem:hasEarliestBeginTimeStamp ?begin_earliest . }
+    OPTIONAL { ?item sem:hasLatestEndTimeStamp ?end_latest . }
+    OPTIONAL { ?item sem:hasLatestBeginTimeStamp ?begin_latest . }
+    OPTIONAL { ?item owl:sameAs ?same_as . }
+    OPTIONAL { ?item dc:type ?type . }
+  }
+#  SERVICE <http://dbpedia.org/sparql> { ?type rdfs:label ?typeLabel . }
+} 
