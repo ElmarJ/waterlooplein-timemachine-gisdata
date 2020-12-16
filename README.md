@@ -17,8 +17,10 @@ All contributions are welcome! The repository contains a QGis file (see https://
 
 ## Roadmap
 Some plans:
-- Include more of Amsterdam, including the structure of individual houses within housing blocks
-- Seperate geo-json-files per neighborhood or canal-island, to make for easier editing and gitting.
+- Merge / incorporate data from more reliable and better documented sources, such as:
+  - http://verdwenengebouwen.nl/
+  - http://histograph.io/ (see also https://github.com/histograph)
+  - http://3dbag.bk.tudelft.nl/ (see also https://github.com/tudelft3d/3dfier)
 - Store more building-characteristics, such as height, building type, facade type (e.g. klokgevel / lijstgevel / trapgevel), facade direction (normal of the front wall), window grid (number of floors, number of windows per floor). All these characteristics could be taken into account when making the 3D reconstruction
 - Map bridges (probably as vector with width en type parameters)
 - Map street level height
