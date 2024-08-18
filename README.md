@@ -1,5 +1,5 @@
 # Waterlooplein Timemachine: GIS data
-Project to reconstruct the development of the Waterlooplein neighborhood between 1800 and 2000 in GeoJson. Data is used by the [Waterlooplein Time Machine project](https://github.com/ElmarJ/waterlooplein-timemachine). See [https://waterlooplein3d.nl] for more information about the whole project.
+Project to reconstruct the development of the Waterlooplein neighborhood between 1800 and 2000 in GeoJson. Data is used by the [Waterlooplein Time Machine project](https://github.com/ElmarJ/waterlooplein-timemachine). See https://waterloopleintimemachine.nl for more information about the whole project.
 
 ## Aim
 Reconstruct vector maps of Amsterdam around 1880. This project serves as the basis for a 3D Unity project, which makes it possible to walk through a reconstruction of Amsterdam around 1880. The current focus is on the Waterloopleinbuurt, mainly because this neighborhood is the most interesting (as it changed entirely), and also because I live there. :)
